@@ -98,3 +98,33 @@ td {
 .list-inline i {
   font-size: 30px;
 }
+
+/* IDs */
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  background: #384047;
+  padding: 20px 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
+#sidebar i {
+    display: block;
+    margin: 30px;
+    font-size: 30px;
+}
+
+#sidebar a {
+  color: #788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
