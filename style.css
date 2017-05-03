@@ -1,0 +1,100 @@
+/* Global CSS */
+body {
+  background: #EBEBEB;
+  color: #7d7d7d;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+h1, h2, h3 {
+  line-height: 20px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 30px;
+  color: #DD5555;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Generic class */
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #d6d6d6;
+  margin: 20px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.border-grey {
+  border: solid #CDCDCD 4px;
+}
+
+.small-pic {
+  width: 100px;
+}
+
+.btn-red {
+    background: #dd5555;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-red:hover {
+  color: white;
+  background: #dd5555;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.list-inline i {
+  font-size: 30px;
+}
